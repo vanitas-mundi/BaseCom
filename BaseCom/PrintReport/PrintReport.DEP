@@ -1,0 +1,42 @@
+[Version]
+Version=1.1.0.23
+
+[PrintReport.dll <0007>]
+Dest=$(AppPath)
+Date=15.06.2004
+Time=12:57
+Version=1.1.0.23
+CABFilename=PrintReport.CAB
+CABINFFile=PrintReport.INF
+Uses1=MSVBVM60.DLL
+Uses2=OLEAUT32.DLL
+Uses3=OLEPRO32.DLL
+Uses4=ASYCFILT.DLL
+Uses5=STDOLE2.TLB
+Uses6=COMCAT.DLL
+Uses7=VB6DE.DLL
+Uses8=crviewer.dll
+Uses9=craxddrt.dll
+Uses10=craxdrt.dll
+Uses11=ODBCHandling.dll
+Uses12=msado15.dll
+Uses13=comdlg32.ocx
+Uses14=MSCOMCT2.OCX
+
+[crviewer.dll <0007>]
+Dest=$(WinSysPath)
+Date=26.02.2001
+Time=22:11
+Version=8.5.0.220
+
+[craxddrt.dll <0007>]
+Dest=$(WinSysPath)
+Date=09.02.2001
+Time=18:47
+Version=8.5.0.217
+
+[craxdrt.dll <0007>]
+Dest=$(WinSysPath)
+Date=10.02.2001
+Time=16:19
+Version=8.5.0.217

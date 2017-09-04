@@ -1,0 +1,256 @@
+[Root]
+Most Recent Package=DEP-Datei 1
+
+
+[Package|Standardm‰ﬂiges Setup-Paket 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=H:\Tools\Dll\PrintReport\Paket
+
+[Package|Standardm‰ﬂiges Setup-Paket 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standardm‰ﬂiges Setup-Paket 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standardm‰ﬂiges Setup-Paket 1|Files Found]
+ODBCHandling.dll=H:\Tools\Dll\ODBCHandling\ODBCHandling.dll
+
+[Package|Standardm‰ﬂiges Setup-Paket 1|Files Released]
+
+[Package|Standardm‰ﬂiges Setup-Paket 1|Missing Dependency Information]
+
+[Package|Standardm‰ﬂiges Setup-Paket 1|Out-of-Date Dependency Information]
+
+[Package|Standardm‰ﬂiges Setup-Paket 1|Files Added]
+
+[Package|Standardm‰ﬂiges Setup-Paket 1|Files Removed]
+
+[Package|Standardm‰ﬂiges Setup-Paket 1|Files In Project]
+H:\Tools\Dll\PrintReport\PrintReport.dll=Yes
+C:\WINNT\system32\MSVBVM60.DLL=Yes
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINNT\system32\VB6DE.DLL=Yes
+C:\Programme\Seagate Software\Viewers\ActiveXViewer\crviewer.dll=Yes
+C:\WINNT\system32\craxdrt.dll=Yes
+C:\Programme\Seagate Software\Report Designer Component\craxddrt.dll=Yes
+C:\WINNT\system32\implode.dll=Yes
+C:\WINNT\system32\Crpaig80.dll=Yes
+C:\WINNT\system32\msvcrt.dll=Yes
+C:\WINNT\system32\Mfc42.dll=Yes
+C:\WINNT\system32\SSCSDK80.DLL=Yes
+C:\WINNT\system32\PG32CONV.DLL=Yes
+C:\Programme\Seagate Software\Report Designer Component\craxddrt_res_de.dll=Yes
+C:\WINNT\system32\P2smon.dll=Yes
+C:\WINNT\system32\p3smnde.dll=Yes
+H:\Tools\Dll\ODBCHandling\ODBCHandling.dll=Yes
+C:\WINNT\system32\COMDLG32.OCX=Yes
+C:\WINNT\system32\CMDLGDE.DLL=Yes
+C:\WINNT\system32\MSCOMCT2.OCX=Yes
+C:\WINNT\system32\MSCC2DE.DLL=Yes
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standardm‰ﬂiges Setup-Paket 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standardm‰ﬂiges Setup-Paket 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standardm‰ﬂiges Setup-Paket 1|Install Locations]
+H:\Tools\Dll\PrintReport\PrintReport.dll=$(AppPath)
+C:\WINNT\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\VB6DE.DLL=$(WinSysPath)
+C:\Programme\Seagate Software\Viewers\ActiveXViewer\crviewer.dll=$(WinSysPath)
+C:\WINNT\system32\craxdrt.dll=$(WinSysPath)
+C:\Programme\Seagate Software\Report Designer Component\craxddrt.dll=$(WinSysPath)
+C:\WINNT\system32\implode.dll=$(WinSysPath)
+C:\WINNT\system32\Crpaig80.dll=$(WinSysPath)
+C:\WINNT\system32\msvcrt.dll=$(WinSysPath)
+C:\WINNT\system32\Mfc42.dll=$(WinSysPath)
+C:\WINNT\system32\SSCSDK80.DLL=$(WinSysPath)
+C:\WINNT\system32\PG32CONV.DLL=$(AppPath)
+C:\Programme\Seagate Software\Report Designer Component\craxddrt_res_de.dll=$(WinSysPath)
+C:\WINNT\system32\P2smon.dll=$(WinSysPath)
+C:\WINNT\system32\p3smnde.dll=$(WinSysPath)
+H:\Tools\Dll\ODBCHandling\ODBCHandling.dll=$(AppPath)
+C:\WINNT\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINNT\system32\CMDLGDE.DLL=$(WinSysPath)
+C:\WINNT\system32\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINNT\system32\MSCC2DE.DLL=$(WinSysPath)
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standardm‰ﬂiges Setup-Paket 1|Configure Shared Files]
+Applicable=Yes
+H:\Tools\Dll\PrintReport\PrintReport.dll=No
+C:\WINNT\system32\PG32CONV.DLL=No
+H:\Tools\Dll\ODBCHandling\ODBCHandling.dll=No
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+
+[Package|Standardm‰ﬂiges Setup-Paket 1|Distribution]
+Type=single
+Size=
+Title=PrintReport
+
+[Package|Standardm‰ﬂiges Setup-Paket 1|Package]
+PackageFolder=H:\Tools\Dll\PrintReport\Paket
+ProjectFolder=H:\Tools\Dll\PrintReport
+ServerSideCab=
+File1=H:\Tools\Dll\PrintReport\Paket\setup.exe
+File2=H:\Tools\Dll\PrintReport\Paket\Setup.Lst
+File3=H:\Tools\Dll\PrintReport\Paket\PrintReport.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|DEP-Datei 1|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=H:\Tools\Dll\PrintReport
+
+[Package|DEP-Datei 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|DEP-Datei 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|DEP-Datei 1|Files Found]
+ODBCHandling.dll=H:\Tools\Dll\ODBCHandling\ODBCHandling.dll
+
+[Package|DEP-Datei 1|Files Released]
+
+[Package|DEP-Datei 1|Missing Dependency Information]
+C:\WINNT\system32\p3smnde.dll=
+C:\WINDOWS\system32\craxdrt.dll=
+C:\WINDOWS\system32\craxddrt.dll=
+C:\WINDOWS\system32\crviewer.dll=
+
+[Package|DEP-Datei 1|Out-of-Date Dependency Information]
+C:\WINNT\system32\scrrun.dll=
+C:\WINDOWS\system32\scrrun.dll=
+
+[Package|DEP-Datei 1|Files Added]
+
+[Package|DEP-Datei 1|Files Removed]
+
+[Package|DEP-Datei 1|Files In Project]
+H:\Tools\Dll\PrintReport\PrintReport.dll=Yes
+C:\Programme\Gemeinsame Dateien\System\ado\msado15.dll=Yes
+C:\WINDOWS\system32\MSVBVM60.DLL=Yes
+D:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+D:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+D:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+D:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+D:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\VB6DE.DLL=Yes
+C:\WINDOWS\system32\crviewer.dll=Yes
+C:\WINDOWS\system32\craxddrt.dll=Yes
+C:\WINDOWS\system32\craxdrt.dll=Yes
+C:\WINDOWS\system32\ODBCHandling.dll=Yes
+C:\WINDOWS\system32\scrrun.dll=Yes
+D:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT.DLL=Yes
+C:\WINDOWS\system32\scrrnde.dll=Yes
+C:\WINDOWS\system32\comdlg32.ocx=Yes
+C:\WINDOWS\system32\CMDLGDE.DLL=Yes
+C:\WINDOWS\system32\MSCOMCT2.OCX=Yes
+C:\WINDOWS\system32\MSCC2DE.DLL=Yes
+
+[Package|DEP-Datei 1|Configure Registry Files]
+Applicable=No
+
+[Package|DEP-Datei 1|Configure Remote Servers]
+Applicable=No
+
+[Package|DEP-Datei 1|Install Locations]
+H:\Tools\Dll\PrintReport\PrintReport.dll=$(AppPath)
+C:\WINNT\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\VB6DE.DLL=$(WinSysPath)
+C:\Programme\Seagate Software\Viewers\ActiveXViewer\crviewer.dll=$(WinSysPath)
+C:\WINNT\system32\craxdrt.dll=$(WinSysPath)
+C:\Programme\Seagate Software\Report Designer Component\craxddrt.dll=$(WinSysPath)
+C:\WINNT\system32\implode.dll=$(WinSysPath)
+C:\WINNT\system32\Crpaig80.dll=$(WinSysPath)
+C:\WINNT\system32\msvcrt.dll=$(WinSysPath)
+C:\WINNT\system32\Mfc42.dll=$(WinSysPath)
+C:\WINNT\system32\SSCSDK80.DLL=$(WinSysPath)
+C:\WINNT\system32\PG32CONV.DLL=$(AppPath)
+C:\Programme\Seagate Software\Report Designer Component\craxddrt_res_de.dll=$(WinSysPath)
+C:\WINNT\system32\P2smon.dll=$(WinSysPath)
+C:\WINNT\system32\p3smnde.dll=$(WinSysPath)
+H:\Tools\Dll\ODBCHandling\ODBCHandling.dll=$(AppPath)
+C:\WINNT\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINNT\system32\CMDLGDE.DLL=$(WinSysPath)
+C:\WINNT\system32\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINNT\system32\MSCC2DE.DLL=$(WinSysPath)
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINNT\system32\ODBCHandling.dll=$(AppPath)
+C:\WINNT\system32\scrrun.dll=$(WinSysPath)
+C:\WINNT\system32\scrrnde.dll=$(WinSysPath)
+C:\Programme\Gemeinsame Dateien\System\ado\msado15.dll=$(CommonFilesSys)\ADO
+C:\WINDOWS\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+D:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+D:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+D:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+D:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+D:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB6DE.DLL=$(WinSysPath)
+C:\WINDOWS\system32\crviewer.dll=$(WinSysPath)
+C:\WINDOWS\system32\craxddrt.dll=$(WinSysPath)
+C:\WINDOWS\system32\craxdrt.dll=$(WinSysPath)
+C:\WINDOWS\system32\ODBCHandling.dll=$(AppPath)
+C:\WINDOWS\system32\scrrun.dll=$(WinSysPath)
+D:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\scrrnde.dll=$(WinSysPath)
+C:\WINDOWS\system32\comdlg32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\CMDLGDE.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCC2DE.DLL=$(WinSysPath)
+
+[Package|DEP-Datei 1|Configure Shared Files]
+Applicable=Yes
+H:\Tools\Dll\PrintReport\PrintReport.dll=No
+C:\WINNT\system32\PG32CONV.DLL=No
+H:\Tools\Dll\ODBCHandling\ODBCHandling.dll=No
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+
+[Package|DEP-Datei 1|Distribution]
+Type=single
+Size=
+Title=PrintReport
+
+[Package|DEP-Datei 1|DepFile]
+DepCabFile=PrintReport.CAB
+DepCabRun=PrintReport.INF
+
+[Package|DEP-Datei 1|Package]
+PackageFolder=H:\Tools\Dll\PrintReport
+ProjectFolder=H:\Tools\Dll\PrintReport
+ServerSideCab=
+File1=H:\Tools\Dll\PrintReport\PrintReport.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

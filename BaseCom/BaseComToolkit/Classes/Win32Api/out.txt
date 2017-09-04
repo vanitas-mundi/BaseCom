@@ -1,0 +1,15 @@
+out.txt
+Win32ApiProfessionalRTF.cls
+Win32ApiProfessionalSysDialogs.cls
+Win32ApiProfessionalSysDrives.cls
+Win32ApiProfessionalSysEventLog.cls
+Win32ApiProfessionalSysFiles.cls
+Win32ApiProfessionalSysFolders.cls
+Win32ApiProfessionalSysFonts.cls
+Win32ApiProfessionalSysInfo.cls
+Win32ApiProfessionalSysKeyboard.cls
+Win32ApiProfessionalSysNLS.cls
+Win32ApiProfessionalSysPrinter.cls
+Win32ApiProfessionalSysRegistry.cls
+Win32ApiProfessionalSysShell.cls
+Win32ApiProfessionalSysWindow.cls

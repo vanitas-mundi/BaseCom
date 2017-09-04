@@ -1,0 +1,40 @@
+ÿJSELECT 
+	r.Raum,
+	l.Kürzel,
+	p.Nachname AS Name,
+	p.Vorname,
+	l.Institut,	
+	CONCAT(b.Von,"-",b.Bis) as Uhrzeit,
+	datapool.GetPersonFullName(b.ReferentenFID) AS Referent,
+	b.Fach AS Kürzel,
+	b.Datum,
+	CONCAT(r.Raum, b.Von) AS Gruppe
+
+FROM
+	raumplan.t_kostentraeger_splitting kts
+	
+	INNER JOIN raumplan.t_buchungen b
+	ON kts.BuchungsFID = b.BuchungsID
+
+	INNER JOIN raumplan.t_raeume r
+	ON b.RaumFID = r.RaumID
+
+	INNER JOIN datenpool.t_lehrgaenge l
+	ON kts.LehrgangsFID = l.LehrgangsNr
+
+	INNER JOIN datenpool.t_studiengaenge_tn stn
+	ON l._rowid = stn.LehrgangsFID
+
+	INNER JOIN datapool.t_personen p
+	ON stn.PersonenFID = p.PersonenID
+
+WHERE
+	(b.Datum = CURRENT_DATE())
+	AND (l.Institut = "FOM")
+	AND (b.Vorlauf = "N")
+
+GROUP By
+	b.RaumFID, b.Von, p._rowid
+
+ORDER BY
+	r.Raum, b.Von, p.Nachname, p.Vorname	
